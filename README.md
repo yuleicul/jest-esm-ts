@@ -10,14 +10,17 @@ npm install -D jest typescript ts-jest @types/jest
 ```
 
 > `jest`: the test runner
+> 
 > `typescript`: the TypeScript compiler
+> 
 > `ts-jest`: a TypeScript preprocessor with source map support for Jest that lets you use Jest to test projects written in TypeScript
+> 
 > `@types/jest`: provides type definitions, including types for Jest globals without a need to import them
 
-Create a basic Jest configuration which introduces a preset handling TypeScript and ESModules correctly:
+Create a basic Jest configuration that introduces a preset handling TypeScript and ESModules correctly:
 
 ```shell
-npx ts-jest config:init # ! important preset
+npx ts-jest config:init
 ```
 
 Create a `sum.ts` file:
